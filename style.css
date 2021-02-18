@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title{
+    width: 60rem;
+    text-align: center;
+    margin: auto;
+    padding: 10rem;
+    font-size: 56px;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  .fade{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    background: rgb(41, 236, 11);
+    font-size: 36px;
+    color: white;
+  }
+  .itemfade {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    padding-top: 75px;
+    background: rgb(41, 236, 11);
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5em;
+  }
+  .zoom{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    background: rgb(11, 41, 236);
+    font-size: 36px;
+    color: white;
+  }
+  .itemzoom {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: rgb(11, 41, 236);
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5em;
+  }
+  .slide{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    background: rgb(236, 11, 11);
+    font-size: 36px;
+    color: white;
+  }
+  .itemslide {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: rgb(236, 11, 11);
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5em;
+  }
+  .flip{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    background: rgb(251, 255, 0);
+    font-size: 36px;
+    color: white;
+  }
+  .itemflip {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: rgb(251, 255, 0);
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5em;
+  }
+.sources{
+    width: 60rem;
+    text-align: center;
+    margin: auto;
+    padding: 10rem;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>AOS</title>
+</head>
+
+<body>
+
+    <header class="title">
+        <h1>AOS</h1>
+        <p>
+            Animate On Scroll Library
+        </p>
+    </header>
+
+
+
+    <!-- FADE -->
+    <h2 class="fade">FADE</h2>
+    <div class="itemfade" data-aos="fade-up">fade-up</div>
+    <div class="itemfade" data-aos="fade-down">fade-down</div>
+    <div class="itemfade" data-aos="fade-right">fade-right</div>
+    <div class="itemfade" data-aos="fade-left">fade-left</div>
+    <div class="itemfade" data-aos="fade-up-right">fade-up-right</div>
+    <div class="itemfade" data-aos="fade-up-left">fade-up-left</div>
+    <div class="itemfade" data-aos="fade-down-right">fade-down-right</div>
+    <div class="itemfade" data-aos="fade-down-left">fade-down-left</div>
+
+    <!-- ZOOM -->
+    <h2 class="zoom">ZOOM</h2>
+    <div class="itemzoom" data-aos="zoom-in">zoom-in</div>
+    <div class="itemzoom" data-aos="zoom-in-up">zoom-in-up</div>
+    <div class="itemzoom" data-aos="zoom-in-down">zoom-in-down</div>
+    <div class="itemzoom" data-aos="zoom-in-right">zoom-in-right</div>
+    <div class="itemzoom" data-aos="zoom-in-left">zoom-in-left</div>
+    <div class="itemzoom" data-aos="zoom-out">zoom-out</div>
+    <div class="itemzoom" data-aos="zoom-out-up">zoom-out-up</div>
+    <div class="itemzoom" data-aos="zoom-out-down">zoom-out-down</div>
+    <div class="itemzoom" data-aos="zoom-out-right">zoom-out-right</div>
+    <div class="itemzoom" data-aos="zoom-out-left">zoom-out-left</div>
+
+
+    <!-- SLIDE -->
+    <h2 class="slide">SLIDE</h2>
+    <div class="itemslide" data-aos="slide-up">slide-up</div>
+    <div class="itemslide" data-aos="slide-down">slide-down</div>
+    <div class="itemslide" data-aos="slide-left">slide-left</div>
+    <div class="itemslide" data-aos="slide-right">slide-right</div>
+
+    <!-- FLIP -->
+    <h2 class="flip">FLIP</h2>
+    <div class="itemflip" data-aos="flip-up">flip-up</div>
+    <div class="itemflip" data-aos="flip-down">flip-down</div>
+    <div class="itemflip" data-aos="flip-right">flip-right</div>
+    <div class="itemflip" data-aos="flip-left">flip-left</div>
+
+
+    <section class="sources">
+        <h2>Sources : </h2>
+        <a href="https://michalsnik.github.io/aos/">Site officiel</a>
+        <a href="ttps://github.com/michalsnik/aos">GitHub</a>
+        <a href="https://karac.ch/blog/animations-scroll-aos">Autre site</a>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>
